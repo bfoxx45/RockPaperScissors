@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>RockPaperScissors</title>
+	</head>
+	<body>
+		
+		<section class="game">
+			<div class="score">
+			<div class="player-score">
+				<h2> Player 1</h2>
+				<p id="player"></p>
+			</div>
+			<div class="computer-score">
+				<h2> Computer</h2>
+				<p id="computer"></p>
+			</div>
+
+			<div class="intro">
+				<h1>RockPaperScissor</h1>
+				<button onclick="keepCount()">Let's Play!</button>
+			</div>
+			<form action="/action_page.php">
+				<input type= "reset" value="Reset">
+			</form> 
+			
+
+			<div class="match">
+				<h2 class=You won!>Choose</h2>
+				<div class="options">
+				<button class="rock" onclick="rock1()">Rock</button>
+				<button class="paper" onclick="paper1()">Paper</button>
+				<button class="scissors" onclick="scissors1()">Scissors</button>
+
+			</div>
+				<div class="message">
+					<p id="message"></p>
+				</div>
+				<div class="hands">
+					<img id="rock" src="Assets/images/rock.jpg">	
+					<img id="paper" src="Assets/images/paper.jpg">
+					<img id="scissors" src="Assets/images/scissors.jpg">
+					
+			</div>
+			
+		</div>
+		</section>
+
+		
+		<script src="Assets/javascripts/RockPaperScissors.js">
+			
+		</script>
+	</body>
+<html>
+
